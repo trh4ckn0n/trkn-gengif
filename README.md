@@ -5,6 +5,14 @@
 
 ---
 
+### 🖼️ Screenshot
+
+<p align="center">
+  <img src="https://g.top4top.io/p_3400ogdg90.jpg" alt="Anonymous style preview" width="600" style="border: 2px solid #00ff99; border-radius: 8px;">
+</p>
+
+---
+
 ## 🚀 Fonctionnalités
 
 - Génère **6 ou 8 frames** cohérentes avec DALL·E 3 (apparition progressive)
