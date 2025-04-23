@@ -4,3 +4,4 @@ requests
 moviepy
 imageio[ffmpeg]
 numpy
+python-dotenv
