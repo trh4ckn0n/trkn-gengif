@@ -88,12 +88,10 @@ Prêt à publier sur **TikTok, Instagram, Reels, X...**
 ---
 
 <p align="center">
-  <video width="600" controls style="border: 2px solid #00ff99; border-radius: 8px;">
-    <source src="https://k.top4top.io/m_3400kuwio0.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <a href="https://k.top4top.io/m_3400kuwio0.mp4" target="_blank">
+    <img src="https://g.top4top.io/p_3400d84j41.gif" alt="Voir la vidéo" width="600">
+  </a>
 </p>
-
 ---
 
 ## 📦 Fichiers générés
