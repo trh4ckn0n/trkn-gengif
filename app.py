@@ -1,11 +1,15 @@
-import openai, requests, os
+import os
+import openai
+import requests
 import numpy as np
 from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont
-import moviepy
-from moviepy import ImageSequenceClip
+from moviepy.editor import ImageSequenceClip
+from dotenv import load_dotenv
 
-openai.api_key = ""
+# Chargement du fichier .env
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
 FONT_PATH = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
 # Génère un prompt pour une frame d'apparition du masque Anonymous
