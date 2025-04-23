@@ -4,7 +4,7 @@ import requests
 import numpy as np
 from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont
-from moviepy.editor import ImageSequenceClip
+from moviepy import ImageSequenceClip
 from dotenv import load_dotenv
 
 # Chargement du fichier .env
