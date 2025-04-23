@@ -83,7 +83,15 @@ Prêt à publier sur **TikTok, Instagram, Reels, X...**
 
 <p align="center">
   <img src="https://g.top4top.io/p_3400d84j41.gif" alt="Anonymous style preview" width="600" style="border: 2px solid #00ff99; border-radius: 8px;">
-  <img src="https://k.top4top.io/m_3400kuwio0.mp4" alt="Anonymous style preview" width="600" style="border: 2px solid #00ff99; border-radius: 8px;">
+</p>
+
+---
+
+<p align="center">
+  <video width="600" controls style="border: 2px solid #00ff99; border-radius: 8px;">
+    <source src="https://k.top4top.io/m_3400kuwio0.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </p>
 
 ---
