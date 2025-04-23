@@ -14,8 +14,8 @@ FONT_PATH = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
 # Génère un prompt pour une frame d'apparition du masque Anonymous
 def generate_frame_prompt(stage_desc):
-    system = "Tu es expert en animation visuelle. Crée un prompt DALL·E 3 très visuel et cohérent avec un thème sombre et cyberpunk."
-    user = f"Scène {stage_desc}. Apparition du masque Anonymous dans la brume numérique. Style hacker, lumière verte, ambiance cyberpunk."
+    system = "Tu es expert en animation visuelle. Crée un prompt DALL·E 3 très visuel et cohérent avec un thème sombre et street-life."
+    user = f"Scène {stage_desc}. Apparition du masque Anonymous dans la brume numérique. Style hacker, lumière verte, ambiance street."
     response = openai.ChatCompletion.create(
         model="gpt-4",
         messages=[{"role": "system", "content": system}, {"role": "user", "content": user}]
@@ -49,7 +49,7 @@ def generate_animation(frames_count):
         "masque en plein centre, brillant"
     ]
     if frames_count == 8:
-        stages += ["masque rayonnant de lumière", "fond de code et reflets cyberpunk"]
+        stages += ["masque rayonnant de lumière", "fond de code et reflets cyberpunk évoquant également le hacking sur la distribution kali linux"]
 
     images = []
     print("\n--- Texte interactif pour chaque frame ---")
@@ -80,7 +80,7 @@ def save_outputs(images, output_basename="anonymous_animation"):
 
 # === MAIN ===
 def main():
-    print("=== Générateur d'animation Anonymous ===")
+    print("=== Générateur d'animation Anonymous -- by TRHACKNON ===")
     frames = input("Combien de frames ? (6 ou 8) > ").strip()
     frames = 6 if frames != "8" else 8
     images = generate_animation(frames)
