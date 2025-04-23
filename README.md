@@ -88,6 +88,8 @@ Prêt à publier sur **TikTok, Instagram, Reels, X...**
 ---
 
 <p align="center">
+  
+**click to see the mp4 video**
   <a href="https://k.top4top.io/m_3400kuwio0.mp4" target="_blank">
     <img src="https://g.top4top.io/p_3400d84j41.gif" alt="Voir la vidéo" width="600">
   </a>
